@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<script>
+function enter() {
+    window.location = 'https://solony.github.io/showcase.html';
+}
+</script>
+<body>
+<div id="container">
+    <audio style="width: 1px; height: 1px; opacity: 0; position: absolute;" id="intro-audio" controls autoplay loop>
+        <source src="./production/intro.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="intro">
+        <div class="title" onclick="enter()">
+            <h2 style="font-weight: lighter !important; cursor: pointer;">Sensory Overloads of Sounds</h2>
+            <p style="color: #B2B2B2; cursor: pointer;">Chihan Feng</p>
+        </div>
+        <div class="bottom-line">
+            <p>If you don't hear anything, make sure your sound is on and the volume is turned up.<br/>And please use headphones for the best experience!</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
